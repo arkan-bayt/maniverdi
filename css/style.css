@@ -343,6 +343,7 @@ section {
 /* About Section */
 .about {
     background: var(--bg-light);
+    padding-bottom: 120px; /* مساحة إضافية لصندوق الإحصائيات */
 }
 
 .about-content {
@@ -387,7 +388,8 @@ section {
 }
 
 .about-image {
-        position: relative;
+    position: relative;
+    margin-bottom: 60px; /* مساحة إضافية لصندوق الإحصائيات */
 }
 
 .about-img {
@@ -415,6 +417,9 @@ section {
 }
 
 @media (max-width: 900px) {
+    .about {
+        padding-bottom: 80px; /* مساحة أقل على الشاشات الصغيرة */
+    }
     .about-content {
         grid-template-columns: 1fr;
         gap: 2rem;
