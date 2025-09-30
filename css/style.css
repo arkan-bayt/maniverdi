@@ -343,14 +343,14 @@ section {
 /* About Section */
 .about {
     background: var(--bg-light);
-    padding-bottom: 120px; /* مساحة إضافية لصندوق الإحصائيات */
+    padding-bottom: 150px; /* مساحة أكبر لصندوق الإحصائيات */
 }
 
 .about-content {
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 4rem;
-    align-items: center;
+    align-items: flex-start; /* تغيير المحاذاة */
 }
 
 .about-text h3 {
@@ -389,7 +389,8 @@ section {
 
 .about-image {
     position: relative;
-    margin-bottom: 60px; /* مساحة إضافية لصندوق الإحصائيات */
+    margin-bottom: 100px; /* مساحة أكبر لصندوق الإحصائيات */
+    padding-right: 80px; /* مساحة جانبية للصندوق */
 }
 
 .about-img {
@@ -402,38 +403,48 @@ section {
 
 
 .about-stats {
-        position: absolute;
-        bottom: -30px;
-        right: -30px;
-        background: var(--bg-white);
-        padding: 2rem;
-        border-radius: var(--border-radius);
-        box-shadow: var(--shadow);
-        display: grid;
-        grid-template-columns: repeat(3, 1fr);
-        gap: 1.5rem;
-        text-align: center;
-        z-index: 2;
+    position: absolute;
+    bottom: -50px; /* أبعد من الصورة */
+    right: -50px; /* أبعد من الحافة */
+    background: var(--bg-white);
+    padding: 2rem;
+    border-radius: var(--border-radius);
+    box-shadow: var(--shadow-hover); /* ظل أقوى */
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1.5rem;
+    text-align: center;
+    z-index: 10; /* أعلى قيمة */
+    min-width: 300px; /* عرض أدنى */
 }
 
-@media (max-width: 900px) {
+@media (max-width: 1000px) {
     .about {
-        padding-bottom: 80px; /* مساحة أقل على الشاشات الصغيرة */
+        padding-bottom: 80px; /* مساحة أقل على الشاشات المتوسطة */
     }
+    .about-image {
+        padding-right: 0; /* إلغاء المساحة الجانبية */
+        margin-bottom: 3rem;
+    }
+    .about-stats {
+        position: static;
+        margin: 2rem auto 0 auto;
+        right: auto;
+        bottom: auto;
+        width: 100%;
+        min-width: auto;
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+
+@media (max-width: 768px) {
     .about-content {
         grid-template-columns: 1fr;
         gap: 2rem;
     }
-    .about-image {
-        margin-bottom: 2.5rem;
-    }
     .about-stats {
-        position: static;
-        margin: 1.5rem auto 0 auto;
-        right: auto;
-        bottom: auto;
-        width: 100%;
         grid-template-columns: 1fr;
+        gap: 1rem;
     }
 }
 
