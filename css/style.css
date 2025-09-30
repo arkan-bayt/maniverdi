@@ -344,6 +344,9 @@ section {
 .about {
     background: var(--bg-light);
     padding-bottom: 150px; /* مساحة أكبر لصندوق الإحصائيات */
+    position: relative;
+    z-index: 1; /* z-index أساسي للقسم */
+    overflow: hidden; /* منع التداخل خارج الحدود */
 }
 
 .about-content {
@@ -351,30 +354,42 @@ section {
     grid-template-columns: 1fr 1fr;
     gap: 4rem;
     align-items: flex-start; /* تغيير المحاذاة */
+    position: relative;
+    z-index: 10; /* z-index عالي للمحتوى */
+}
+
+.about-text {
+    position: relative;
+    z-index: 20; /* z-index عالي للنص */
 }
 
 .about-text h3 {
     font-size: 1.8rem;
     color: var(--primary-color);
-    margin-bottom: 1rem;
+    margin-bottom: 1.5rem; /* margin محسن */
+    line-height: 1.4; /* line-height محسن */
 }
 
 .about-description {
     font-size: 1.1rem;
     color: var(--text-light);
-    line-height: 1.8;
-    margin-bottom: 2rem;
+    line-height: 1.9; /* line-height محسن لتجنب التداخل */
+    margin-bottom: 2.5rem; /* margin محسن */
 }
 
 .about-features {
     display: grid;
-    gap: 1rem;
+    gap: 1.2rem; /* gap محسن */
+    position: relative;
+    z-index: 15; /* z-index عالي للمميزات */
 }
 
 .feature {
     display: flex;
     align-items: center;
     gap: 12px;
+    margin-bottom: 0.5rem; /* margin إضافي */
+    line-height: 1.6; /* line-height محسن */
 }
 
 .feature i {
@@ -391,6 +406,7 @@ section {
     position: relative;
     margin-bottom: 100px; /* مساحة أكبر لصندوق الإحصائيات */
     padding-right: 80px; /* مساحة جانبية للصندوق */
+    z-index: 5; /* z-index أقل من النص */
 }
 
 .about-img {
@@ -399,6 +415,7 @@ section {
     object-fit: cover;
     border-radius: var(--border-radius);
     box-shadow: var(--shadow);
+    z-index: 3; /* z-index أقل للصورة */
 }
 
 
@@ -414,8 +431,9 @@ section {
     grid-template-columns: repeat(3, 1fr);
     gap: 1.5rem;
     text-align: center;
-    z-index: 10; /* أعلى قيمة */
+    z-index: 8; /* z-index متوسط - أقل من النص ولكن أعلى من الصورة */
     min-width: 300px; /* عرض أدنى */
+    transform: translateZ(0); /* منع تأثيرات التحويل */
 }
 
 @media (max-width: 1000px) {
