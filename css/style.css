@@ -1380,34 +1380,34 @@ section {
 
 .load-more-btn,
 .hide-more-btn {
-    padding: 1.2rem 2.5rem;
-    background: white;
-    color: #2d5a3d;
-    border: 3px solid var(--green);
-    border-radius: 35px;
-    font-size: 1rem;
-    font-weight: 700;
+    padding: 1rem 2rem;
+    background: var(--bg-white);
+    color: #333333; /* لون أسود فاتح */
+    border: 2px solid var(--primary-color);
+    border-radius: var(--border-radius);
+    font-size: 0.95rem;
+    font-weight: 600;
     cursor: pointer;
-    transition: all 0.4s ease;
-    box-shadow: 0 6px 20px rgba(45, 90, 61, 0.15);
+    transition: var(--transition);
+    box-shadow: var(--shadow);
     display: inline-flex;
     align-items: center;
-    gap: 0.7rem;
-    text-transform: uppercase;
-    letter-spacing: 0.5px;
+    gap: 0.5rem;
+    text-transform: none;
+    letter-spacing: 0.3px;
     position: relative;
     overflow: hidden;
-    flex-direction: column;
+    flex-direction: row; /* تصميم أفقي بدلاً من عمودي */
 }
 
 .load-more-btn .image-count {
-    font-size: 0.75rem;
+    font-size: 0.8rem;
     font-weight: 500;
-    color: #1a3d26;
+    color: var(--text-light);
     text-transform: none;
     letter-spacing: normal;
-    margin-top: 0.2rem;
-    opacity: 0.8;
+    margin-left: 0.3rem;
+    opacity: 0.7;
 }
 
 .hide-more-btn {
@@ -1436,19 +1436,18 @@ section {
 
 .load-more-btn:hover,
 .hide-more-btn:hover {
-    transform: translateY(-3px) scale(1.05);
-    box-shadow: 0 8px 25px rgba(45, 90, 61, 0.25);
-    background: var(--green);
-    color: white;
-    border-color: var(--green);
+    background: var(--primary-color);
+    color: var(--text-white);
+    transform: translateY(-2px);
+    box-shadow: var(--shadow-hover);
+    border-color: var(--primary-color);
 }
 
 .load-more-btn:hover .image-count {
-    color: rgba(255, 255, 255, 0.9);
+    color: rgba(255, 255, 255, 0.8);
 }
 
 .hide-more-btn:hover {
-    box-shadow: 0 8px 25px rgba(231, 76, 60, 0.4);
     background: #e74c3c;
     color: white;
     border-color: #e74c3c;
@@ -1456,12 +1455,18 @@ section {
 
 .load-more-btn:active,
 .hide-more-btn:active {
-    transform: translateY(-1px) scale(1.02);
+    transform: translateY(0px);
 }
 
 .load-more-btn i,
 .hide-more-btn i {
-    font-size: 0.9rem;
+    font-size: 0.85rem;
+    color: var(--primary-color);
+    transition: var(--transition);
+}
+
+.load-more-btn:hover i {
+    color: var(--text-white);
 }
 
 .hidden-gallery-items {
