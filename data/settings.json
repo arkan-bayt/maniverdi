@@ -1,0 +1,32 @@
+{
+  "colors": {
+    "primary": "#2E7D32",
+    "secondary": "#4CAF50",
+    "accent": "#FFC107",
+    "textDark": "#333333",
+    "textLight": "#666666",
+    "textWhite": "#ffffff",
+    "backgroundLight": "#f8f9fa",
+    "backgroundWhite": "#ffffff",
+    "border": "#e0e0e0"
+  },
+  "typography": {
+    "primaryFont": "Poppins",
+    "secondaryFont": "Arial",
+    "baseFontSize": "16px",
+    "lineHeight": "1.6"
+  },
+  "layout": {
+    "headerHeight": "80px",
+    "borderRadius": "12px",
+    "maxWidth": "1200px",
+    "sectionPadding": "80px"
+  },
+  "shadows": {
+    "default": "0 2px 15px rgba(0,0,0,0.1)",
+    "hover": "0 5px 25px rgba(0,0,0,0.15)"
+  },
+  "transitions": {
+    "default": "all 0.3s cubic-bezier(0.4, 0, 0.2, 1)"
+  }
+}

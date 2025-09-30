@@ -1,0 +1,56 @@
+{
+  "name": "mani-verdi-website",
+  "version": "1.0.0",
+  "description": "Sito web professionale per Mani Verdi - Servizi di giardinaggio, facchinaggio, pulizie e manutenzione a Novara",
+  "main": "index.html",
+  "scripts": {
+    "start": "npx http-server . -p 3000",
+    "build": "echo 'Building project...' && npm run minify-css && npm run minify-js",
+    "minify-css": "npx clean-css-cli css/style.css -o css/style.min.css && npx clean-css-cli admin/css/admin.css -o admin/css/admin.min.css",
+    "minify-js": "npx uglify-js js/main.js -o js/main.min.js && npx uglify-js admin/js/admin.js -o admin/js/admin.min.js",
+    "optimize-images": "npx imagemin images/**/* --out-dir=images/optimized",
+    "lighthouse": "npx lighthouse http://localhost:3000 --output=html --output-path=lighthouse-report.html",
+    "test": "echo 'No tests specified'",
+    "deploy": "echo 'Deploy to your hosting provider'",
+    "backup": "tar -czf backup-$(date +%Y%m%d).tar.gz --exclude=node_modules .",
+    "validate-html": "npx html-validate *.html",
+    "validate-css": "npx stylelint css/*.css"
+  },
+  "keywords": [
+    "giardinaggio",
+    "facchinaggio", 
+    "pulizie",
+    "manutenzione",
+    "novara",
+    "servizi",
+    "website",
+    "business"
+  ],
+  "author": "Mani Verdi",
+  "license": "UNLICENSED",
+  "private": true,
+  "devDependencies": {
+    "clean-css-cli": "^5.6.2",
+    "uglify-js": "^3.17.4",
+    "http-server": "^14.1.1",
+    "imagemin": "^8.0.1",
+    "imagemin-pngquant": "^9.0.2",
+    "imagemin-mozjpeg": "^10.0.0",
+    "lighthouse": "^10.4.0",
+    "html-validate": "^8.7.3",
+    "stylelint": "^15.11.0"
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions",
+    "not dead"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/yourusername/mani-verdi-website.git"
+  },
+  "bugs": {
+    "url": "https://github.com/yourusername/mani-verdi-website/issues"
+  },
+  "homepage": "https://yourdomain.com"
+}

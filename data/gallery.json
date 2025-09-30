@@ -1,0 +1,586 @@
+[
+  {
+    "id": 1,
+    "src": "images/gallery/20250929_141120.jpg",
+    "thumbnail": "images/thumbnails/20250929_141120_thumb.jpg",
+    "alt": "Lavoro Mani Verdi 1",
+    "title": "Progetto 1",
+    "uploadDate": "30/09/2025"
+  },
+  {
+    "id": 2,
+    "src": "images/gallery/20250929_134939.jpg",
+    "thumbnail": "images/thumbnails/20250929_134939_thumb.jpg",
+    "alt": "Lavoro Mani Verdi 2",
+    "title": "Progetto 2",
+    "uploadDate": "30/09/2025"
+  },
+  {
+    "id": 3,
+    "src": "images/gallery/20250926_154933.jpg",
+    "thumbnail": "images/thumbnails/20250926_154933_thumb.jpg",
+    "alt": "Lavoro Mani Verdi 3",
+    "title": "Progetto 3",
+    "uploadDate": "30/09/2025"
+  },
+  {
+    "id": 4,
+    "src": "images/gallery/20250929_134536.jpg",
+    "thumbnail": "images/thumbnails/20250929_134536_thumb.jpg",
+    "alt": "Lavoro Mani Verdi 4",
+    "title": "Progetto 4",
+    "uploadDate": "30/09/2025"
+  },
+  {
+    "id": 5,
+    "src": "images/gallery/20250929_133129.jpg",
+    "thumbnail": "images/thumbnails/20250929_133129_thumb.jpg",
+    "alt": "Lavoro Mani Verdi 5",
+    "title": "Progetto 5",
+    "uploadDate": "30/09/2025"
+  },
+  {
+    "id": 6,
+    "src": "images/gallery/20250929_135150.jpg",
+    "thumbnail": "images/thumbnails/20250929_135150_thumb.jpg",
+    "alt": "Lavoro Mani Verdi 6",
+    "title": "Progetto 6",
+    "uploadDate": "30/09/2025"
+  },
+  {
+    "id": 7,
+    "src": "images/gallery/20250929_141758.jpg",
+    "thumbnail": "images/thumbnails/20250929_141758_thumb.jpg",
+    "alt": "Lavoro Mani Verdi 7",
+    "title": "Progetto 7",
+    "uploadDate": "30/09/2025"
+  },
+  {
+    "id": 8,
+    "src": "images/gallery/20250929_135151.jpg",
+    "thumbnail": "images/thumbnails/20250929_135151_thumb.jpg",
+    "alt": "Lavoro Mani Verdi 8",
+    "title": "Progetto 8",
+    "uploadDate": "30/09/2025"
+  },
+  {
+    "id": 9,
+    "src": "images/gallery/20250926_154942.jpg",
+    "thumbnail": "images/thumbnails/20250926_154942_thumb.jpg",
+    "alt": "Lavoro Mani Verdi 9",
+    "title": "Progetto 9",
+    "uploadDate": "30/09/2025"
+  },
+  {
+    "id": 10,
+    "src": "images/gallery/20250929_141110.jpg",
+    "thumbnail": "images/thumbnails/20250929_141110_thumb.jpg",
+    "alt": "Lavoro Mani Verdi 10",
+    "title": "Progetto 10",
+    "uploadDate": "30/09/2025"
+  },
+  {
+    "id": 11,
+    "src": "images/gallery/20250929_135158.jpg",
+    "thumbnail": "images/thumbnails/20250929_135158_thumb.jpg",
+    "alt": "Lavoro Mani Verdi 11",
+    "title": "Progetto 11",
+    "uploadDate": "30/09/2025"
+  },
+  {
+    "id": 12,
+    "src": "images/gallery/20250929_141757.jpg",
+    "thumbnail": "images/thumbnails/20250929_141757_thumb.jpg",
+    "alt": "Lavoro Mani Verdi 12",
+    "title": "Progetto 12",
+    "uploadDate": "30/09/2025"
+  },
+  {
+    "id": 13,
+    "src": "images/gallery/20250925_140007.jpg",
+    "thumbnail": "images/thumbnails/20250925_140007_thumb.jpg",
+    "alt": "Lavoro Mani Verdi 13",
+    "title": "Progetto 13",
+    "uploadDate": "30/09/2025"
+  },
+  {
+    "id": 14,
+    "src": "images/gallery/20250926_155110.jpg",
+    "thumbnail": "images/thumbnails/20250926_155110_thumb.jpg",
+    "alt": "Lavoro Mani Verdi 14",
+    "title": "Progetto 14",
+    "uploadDate": "30/09/2025"
+  },
+  {
+    "id": 15,
+    "src": "images/gallery/20250929_133602.jpg",
+    "thumbnail": "images/thumbnails/20250929_133602_thumb.jpg",
+    "alt": "Lavoro Mani Verdi 15",
+    "title": "Progetto 15",
+    "uploadDate": "30/09/2025"
+  },
+  {
+    "id": 16,
+    "src": "images/gallery/20250926_154936.jpg",
+    "thumbnail": "images/thumbnails/20250926_154936_thumb.jpg",
+    "alt": "Lavoro Mani Verdi 16",
+    "title": "Progetto 16",
+    "uploadDate": "30/09/2025"
+  },
+  {
+    "id": 17,
+    "src": "images/gallery/20250925_094327.jpg",
+    "thumbnail": "images/thumbnails/20250925_094327_thumb.jpg",
+    "alt": "Lavoro Mani Verdi 17",
+    "title": "Progetto 17",
+    "uploadDate": "30/09/2025"
+  },
+  {
+    "id": 18,
+    "src": "images/gallery/20250925_140003.jpg",
+    "thumbnail": "images/thumbnails/20250925_140003_thumb.jpg",
+    "alt": "Lavoro Mani Verdi 18",
+    "title": "Progetto 18",
+    "uploadDate": "30/09/2025"
+  },
+  {
+    "id": 19,
+    "src": "images/gallery/20250926_152618.jpg",
+    "thumbnail": "images/thumbnails/20250926_152618_thumb.jpg",
+    "alt": "Lavoro Mani Verdi 19",
+    "title": "Progetto 19",
+    "uploadDate": "30/09/2025"
+  },
+  {
+    "id": 20,
+    "src": "images/gallery/20250929_134952.jpg",
+    "thumbnail": "images/thumbnails/20250929_134952_thumb.jpg",
+    "alt": "Lavoro Mani Verdi 20",
+    "title": "Progetto 20",
+    "uploadDate": "30/09/2025"
+  },
+  {
+    "id": 21,
+    "src": "images/gallery/20250929_141457.jpg",
+    "thumbnail": "images/thumbnails/20250929_141457_thumb.jpg",
+    "alt": "Lavoro Mani Verdi 21",
+    "title": "Progetto 21",
+    "uploadDate": "30/09/2025"
+  },
+  {
+    "id": 22,
+    "src": "images/gallery/20250929_135149.jpg",
+    "thumbnail": "images/thumbnails/20250929_135149_thumb.jpg",
+    "alt": "Lavoro Mani Verdi 22",
+    "title": "Progetto 22",
+    "uploadDate": "30/09/2025"
+  },
+  {
+    "id": 23,
+    "src": "images/gallery/20250929_135255.jpg",
+    "thumbnail": "images/thumbnails/20250929_135255_thumb.jpg",
+    "alt": "Lavoro Mani Verdi 23",
+    "title": "Progetto 23",
+    "uploadDate": "30/09/2025"
+  },
+  {
+    "id": 24,
+    "src": "images/gallery/20250929_133601.jpg",
+    "thumbnail": "images/thumbnails/20250929_133601_thumb.jpg",
+    "alt": "Lavoro Mani Verdi 24",
+    "title": "Progetto 24",
+    "uploadDate": "30/09/2025"
+  },
+  {
+    "id": 25,
+    "src": "images/gallery/20250929_134915.jpg",
+    "thumbnail": "images/thumbnails/20250929_134915_thumb.jpg",
+    "alt": "Lavoro Mani Verdi 25",
+    "title": "Progetto 25",
+    "uploadDate": "30/09/2025"
+  },
+  {
+    "id": 26,
+    "src": "images/gallery/20250926_152606.jpg",
+    "thumbnail": "images/thumbnails/20250926_152606_thumb.jpg",
+    "alt": "Lavoro Mani Verdi 26",
+    "title": "Progetto 26",
+    "uploadDate": "30/09/2025"
+  },
+  {
+    "id": 27,
+    "src": "images/gallery/20250929_135332.jpg",
+    "thumbnail": "images/thumbnails/20250929_135332_thumb.jpg",
+    "alt": "Lavoro Mani Verdi 27",
+    "title": "Progetto 27",
+    "uploadDate": "30/09/2025"
+  },
+  {
+    "id": 28,
+    "src": "images/gallery/20250929_133610.jpg",
+    "thumbnail": "images/thumbnails/20250929_133610_thumb.jpg",
+    "alt": "Lavoro Mani Verdi 28",
+    "title": "Progetto 28",
+    "uploadDate": "30/09/2025"
+  },
+  {
+    "id": 29,
+    "src": "images/gallery/20250926_152554.jpg",
+    "thumbnail": "images/thumbnails/20250926_152554_thumb.jpg",
+    "alt": "Lavoro Mani Verdi 29",
+    "title": "Progetto 29",
+    "uploadDate": "30/09/2025"
+  },
+  {
+    "id": 30,
+    "src": "images/gallery/20250929_134353.jpg",
+    "thumbnail": "images/thumbnails/20250929_134353_thumb.jpg",
+    "alt": "Lavoro Mani Verdi 30",
+    "title": "Progetto 30",
+    "uploadDate": "30/09/2025"
+  },
+  {
+    "id": 31,
+    "src": "images/gallery/20250925_140000.jpg",
+    "thumbnail": "images/thumbnails/20250925_140000_thumb.jpg",
+    "alt": "Lavoro Mani Verdi 31",
+    "title": "Progetto 31",
+    "uploadDate": "30/09/2025"
+  },
+  {
+    "id": 32,
+    "src": "images/gallery/20250929_135148.jpg",
+    "thumbnail": "images/thumbnails/20250929_135148_thumb.jpg",
+    "alt": "Lavoro Mani Verdi 32",
+    "title": "Progetto 32",
+    "uploadDate": "30/09/2025"
+  },
+  {
+    "id": 33,
+    "src": "images/gallery/20250929_141435.jpg",
+    "thumbnail": "images/thumbnails/20250929_141435_thumb.jpg",
+    "alt": "Lavoro Mani Verdi 33",
+    "title": "Progetto 33",
+    "uploadDate": "30/09/2025"
+  },
+  {
+    "id": 34,
+    "src": "images/gallery/20250925_134037.jpg",
+    "thumbnail": "images/thumbnails/20250925_134037_thumb.jpg",
+    "alt": "Lavoro Mani Verdi 34",
+    "title": "Progetto 34",
+    "uploadDate": "30/09/2025"
+  },
+  {
+    "id": 35,
+    "src": "images/gallery/20250926_152546.jpg",
+    "thumbnail": "images/thumbnails/20250926_152546_thumb.jpg",
+    "alt": "Lavoro Mani Verdi 35",
+    "title": "Progetto 35",
+    "uploadDate": "30/09/2025"
+  },
+  {
+    "id": 36,
+    "src": "images/gallery/20250929_135153.jpg",
+    "thumbnail": "images/thumbnails/20250929_135153_thumb.jpg",
+    "alt": "Lavoro Mani Verdi 36",
+    "title": "Progetto 36",
+    "uploadDate": "30/09/2025"
+  },
+  {
+    "id": 37,
+    "src": "images/gallery/20250926_154901.jpg",
+    "thumbnail": "images/thumbnails/20250926_154901_thumb.jpg",
+    "alt": "Lavoro Mani Verdi 37",
+    "title": "Progetto 37",
+    "uploadDate": "30/09/2025"
+  },
+  {
+    "id": 38,
+    "src": "images/gallery/20250925_134033.jpg",
+    "thumbnail": "images/thumbnails/20250925_134033_thumb.jpg",
+    "alt": "Lavoro Mani Verdi 38",
+    "title": "Progetto 38",
+    "uploadDate": "30/09/2025"
+  },
+  {
+    "id": 39,
+    "src": "images/gallery/20250929_135258.jpg",
+    "thumbnail": "images/thumbnails/20250929_135258_thumb.jpg",
+    "alt": "Lavoro Mani Verdi 39",
+    "title": "Progetto 39",
+    "uploadDate": "30/09/2025"
+  },
+  {
+    "id": 40,
+    "src": "images/gallery/20250929_141121.jpg",
+    "thumbnail": "images/thumbnails/20250929_141121_thumb.jpg",
+    "alt": "Lavoro Mani Verdi 40",
+    "title": "Progetto 40",
+    "uploadDate": "30/09/2025"
+  },
+  {
+    "id": 41,
+    "src": "images/gallery/20250929_133559.jpg",
+    "thumbnail": "images/thumbnails/20250929_133559_thumb.jpg",
+    "alt": "Lavoro Mani Verdi 41",
+    "title": "Progetto 41",
+    "uploadDate": "30/09/2025"
+  },
+  {
+    "id": 42,
+    "src": "images/gallery/20250929_134631.jpg",
+    "thumbnail": "images/thumbnails/20250929_134631_thumb.jpg",
+    "alt": "Lavoro Mani Verdi 42",
+    "title": "Progetto 42",
+    "uploadDate": "30/09/2025"
+  },
+  {
+    "id": 43,
+    "src": "images/gallery/20250929_134958.jpg",
+    "thumbnail": "images/thumbnails/20250929_134958_thumb.jpg",
+    "alt": "Lavoro Mani Verdi 43",
+    "title": "Progetto 43",
+    "uploadDate": "30/09/2025"
+  },
+  {
+    "id": 44,
+    "src": "images/gallery/20250926_154940.jpg",
+    "thumbnail": "images/thumbnails/20250926_154940_thumb.jpg",
+    "alt": "Lavoro Mani Verdi 44",
+    "title": "Progetto 44",
+    "uploadDate": "30/09/2025"
+  },
+  {
+    "id": 45,
+    "src": "images/gallery/20250929_135330.jpg",
+    "thumbnail": "images/thumbnails/20250929_135330_thumb.jpg",
+    "alt": "Lavoro Mani Verdi 45",
+    "title": "Progetto 45",
+    "uploadDate": "30/09/2025"
+  },
+  {
+    "id": 46,
+    "src": "images/gallery/20250929_135259.jpg",
+    "thumbnail": "images/thumbnails/20250929_135259_thumb.jpg",
+    "alt": "Lavoro Mani Verdi 46",
+    "title": "Progetto 46",
+    "uploadDate": "30/09/2025"
+  },
+  {
+    "id": 47,
+    "src": "images/gallery/20250929_135302.jpg",
+    "thumbnail": "images/thumbnails/20250929_135302_thumb.jpg",
+    "alt": "Lavoro Mani Verdi 47",
+    "title": "Progetto 47",
+    "uploadDate": "30/09/2025"
+  },
+  {
+    "id": 48,
+    "src": "images/gallery/20250929_135157.jpg",
+    "thumbnail": "images/thumbnails/20250929_135157_thumb.jpg",
+    "alt": "Lavoro Mani Verdi 48",
+    "title": "Progetto 48",
+    "uploadDate": "30/09/2025"
+  },
+  {
+    "id": 49,
+    "src": "images/gallery/20250929_135147.jpg",
+    "thumbnail": "images/thumbnails/20250929_135147_thumb.jpg",
+    "alt": "Lavoro Mani Verdi 49",
+    "title": "Progetto 49",
+    "uploadDate": "30/09/2025"
+  },
+  {
+    "id": 50,
+    "src": "images/gallery/20250929_133553.jpg",
+    "thumbnail": "images/thumbnails/20250929_133553_thumb.jpg",
+    "alt": "Lavoro Mani Verdi 50",
+    "title": "Progetto 50",
+    "uploadDate": "30/09/2025"
+  },
+  {
+    "id": 51,
+    "src": "images/gallery/20250929_141756.jpg",
+    "thumbnail": "images/thumbnails/20250929_141756_thumb.jpg",
+    "alt": "Lavoro Mani Verdi 51",
+    "title": "Progetto 51",
+    "uploadDate": "30/09/2025"
+  },
+  {
+    "id": 52,
+    "src": "images/gallery/20250929_133612.jpg",
+    "thumbnail": "images/thumbnails/20250929_133612_thumb.jpg",
+    "alt": "Lavoro Mani Verdi 52",
+    "title": "Progetto 52",
+    "uploadDate": "30/09/2025"
+  },
+  {
+    "id": 53,
+    "src": "images/gallery/20250929_133542.jpg",
+    "thumbnail": "images/thumbnails/20250929_133542_thumb.jpg",
+    "alt": "Lavoro Mani Verdi 53",
+    "title": "Progetto 53",
+    "uploadDate": "30/09/2025"
+  },
+  {
+    "id": 54,
+    "src": "images/gallery/20250926_154903.jpg",
+    "thumbnail": "images/thumbnails/20250926_154903_thumb.jpg",
+    "alt": "Lavoro Mani Verdi 54",
+    "title": "Progetto 54",
+    "uploadDate": "30/09/2025"
+  },
+  {
+    "id": 55,
+    "src": "images/gallery/20250925_140005.jpg",
+    "thumbnail": "images/thumbnails/20250925_140005_thumb.jpg",
+    "alt": "Lavoro Mani Verdi 55",
+    "title": "Progetto 55",
+    "uploadDate": "30/09/2025"
+  },
+  {
+    "id": 56,
+    "src": "images/gallery/20250929_135300.jpg",
+    "thumbnail": "images/thumbnails/20250929_135300_thumb.jpg",
+    "alt": "Lavoro Mani Verdi 56",
+    "title": "Progetto 56",
+    "uploadDate": "30/09/2025"
+  },
+  {
+    "id": 57,
+    "src": "images/gallery/20250929_133608.jpg",
+    "thumbnail": "images/thumbnails/20250929_133608_thumb.jpg",
+    "alt": "Lavoro Mani Verdi 57",
+    "title": "Progetto 57",
+    "uploadDate": "30/09/2025"
+  },
+  {
+    "id": 58,
+    "src": "images/gallery/20250929_141118.jpg",
+    "thumbnail": "images/thumbnails/20250929_141118_thumb.jpg",
+    "alt": "Lavoro Mani Verdi 58",
+    "title": "Progetto 58",
+    "uploadDate": "30/09/2025"
+  },
+  {
+    "id": 59,
+    "src": "images/gallery/20250929_134055.jpg",
+    "thumbnail": "images/thumbnails/20250929_134055_thumb.jpg",
+    "alt": "Lavoro Mani Verdi 59",
+    "title": "Progetto 59",
+    "uploadDate": "30/09/2025"
+  },
+  {
+    "id": 60,
+    "src": "images/gallery/20250929_135256.jpg",
+    "thumbnail": "images/thumbnails/20250929_135256_thumb.jpg",
+    "alt": "Lavoro Mani Verdi 60",
+    "title": "Progetto 60",
+    "uploadDate": "30/09/2025"
+  },
+  {
+    "id": 61,
+    "src": "images/gallery/20250929_135029.jpg",
+    "thumbnail": "images/thumbnails/20250929_135029_thumb.jpg",
+    "alt": "Lavoro Mani Verdi 61",
+    "title": "Progetto 61",
+    "uploadDate": "30/09/2025"
+  },
+  {
+    "id": 62,
+    "src": "images/gallery/20250929_135145.jpg",
+    "thumbnail": "images/thumbnails/20250929_135145_thumb.jpg",
+    "alt": "Lavoro Mani Verdi 62",
+    "title": "Progetto 62",
+    "uploadDate": "30/09/2025"
+  },
+  {
+    "id": 63,
+    "src": "images/gallery/20250929_135323.jpg",
+    "thumbnail": "images/thumbnails/20250929_135323_thumb.jpg",
+    "alt": "Lavoro Mani Verdi 63",
+    "title": "Progetto 63",
+    "uploadDate": "30/09/2025"
+  },
+  {
+    "id": 64,
+    "src": "images/gallery/20250929_133138.jpg",
+    "thumbnail": "images/thumbnails/20250929_133138_thumb.jpg",
+    "alt": "Lavoro Mani Verdi 64",
+    "title": "Progetto 64",
+    "uploadDate": "30/09/2025"
+  },
+  {
+    "id": 65,
+    "src": "images/gallery/20250929_133139.jpg",
+    "thumbnail": "images/thumbnails/20250929_133139_thumb.jpg",
+    "alt": "Lavoro Mani Verdi 65",
+    "title": "Progetto 65",
+    "uploadDate": "30/09/2025"
+  },
+  {
+    "id": 66,
+    "src": "images/gallery/20250925_134034.jpg",
+    "thumbnail": "images/thumbnails/20250925_134034_thumb.jpg",
+    "alt": "Lavoro Mani Verdi 66",
+    "title": "Progetto 66",
+    "uploadDate": "30/09/2025"
+  },
+  {
+    "id": 67,
+    "src": "images/gallery/20250926_152550.jpg",
+    "thumbnail": "images/thumbnails/20250926_152550_thumb.jpg",
+    "alt": "Lavoro Mani Verdi 67",
+    "title": "Progetto 67",
+    "uploadDate": "30/09/2025"
+  },
+  {
+    "id": 68,
+    "src": "images/gallery/20250929_141436.jpg",
+    "thumbnail": "images/thumbnails/20250929_141436_thumb.jpg",
+    "alt": "Lavoro Mani Verdi 68",
+    "title": "Progetto 68",
+    "uploadDate": "30/09/2025"
+  },
+  {
+    "id": 69,
+    "src": "images/gallery/20250929_141437.jpg",
+    "thumbnail": "images/thumbnails/20250929_141437_thumb.jpg",
+    "alt": "Lavoro Mani Verdi 69",
+    "title": "Progetto 69",
+    "uploadDate": "30/09/2025"
+  },
+  {
+    "id": 70,
+    "src": "images/gallery/20250925_140006.jpg",
+    "thumbnail": "images/thumbnails/20250925_140006_thumb.jpg",
+    "alt": "Lavoro Mani Verdi 70",
+    "title": "Progetto 70",
+    "uploadDate": "30/09/2025"
+  },
+  {
+    "id": 71,
+    "src": "images/gallery/20250929_133535.jpg",
+    "thumbnail": "images/thumbnails/20250929_133535_thumb.jpg",
+    "alt": "Lavoro Mani Verdi 71",
+    "title": "Progetto 71",
+    "uploadDate": "30/09/2025"
+  },
+  {
+    "id": 72,
+    "src": "images/gallery/20250925_134110.jpg",
+    "thumbnail": "images/thumbnails/20250925_134110_thumb.jpg",
+    "alt": "Lavoro Mani Verdi 72",
+    "title": "Progetto 72",
+    "uploadDate": "30/09/2025"
+  },
+  {
+    "id": 73,
+    "src": "images/gallery/20250929_141441.jpg",
+    "thumbnail": "images/thumbnails/20250929_141441_thumb.jpg",
+    "alt": "Lavoro Mani Verdi 73",
+    "title": "Progetto 73",
+    "uploadDate": "30/09/2025"
+  }
+]

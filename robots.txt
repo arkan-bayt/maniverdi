@@ -1,0 +1,17 @@
+User-agent: *
+Allow: /
+
+# Block admin area from search engines
+Disallow: /admin/
+Disallow: /data/
+
+# Allow important files
+Allow: /css/
+Allow: /js/
+Allow: /images/
+
+# Sitemap location
+Sitemap: https://yourdomain.com/sitemap.xml
+
+# Crawl delay (optional)
+Crawl-delay: 1

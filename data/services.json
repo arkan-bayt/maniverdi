@@ -1,0 +1,66 @@
+[
+  {
+    "id": "giardinaggio",
+    "title": "Giardinaggio",
+    "description": "Servizi completi di progettazione, manutenzione e cura di giardini, aiuole e spazi verdi.",
+    "icon": "fas fa-seedling",
+    "features": [
+      "Progettazione giardini",
+      "Manutenzione aree verdi",
+      "Potatura piante",
+      "Irrigazione automatica",
+      "Realizzazione aiuole",
+      "Semina e piantagione"
+    ],
+    "image": "images/services/giardinaggio.jpg",
+    "order": 1
+  },
+  {
+    "id": "facchinaggio",
+    "title": "Facchinaggio",
+    "description": "Servizi di trasporto, carico e scarico merci con personale qualificato e attrezzature professionali.",
+    "icon": "fas fa-truck",
+    "features": [
+      "Trasporto merci",
+      "Carico e scarico",
+      "Traslochi completi",
+      "Montaggio mobili",
+      "Imballaggio professionale",
+      "Trasporti locali"
+    ],
+    "image": "images/services/facchinaggio.jpg",
+    "order": 2
+  },
+  {
+    "id": "pulizie",
+    "title": "Pulizie",
+    "description": "Servizi di pulizia professionale per abitazioni, uffici e spazi commerciali con prodotti eco-friendly.",
+    "icon": "fas fa-broom",
+    "features": [
+      "Pulizie domestiche",
+      "Pulizie uffici",
+      "Pulizie post-ristrutturazione",
+      "Sanificazione ambienti",
+      "Pulizie vetrate",
+      "Pulizie condominiali"
+    ],
+    "image": "images/services/pulizie.jpg",
+    "order": 3
+  },
+  {
+    "id": "manutenzione",
+    "title": "Piccola Manutenzione Muratore",
+    "description": "Interventi di piccola manutenzione edile e riparazioni per la vostra casa o ufficio.",
+    "icon": "fas fa-tools",
+    "features": [
+      "Riparazioni domestiche",
+      "Tinteggiature",
+      "Piccole ristrutturazioni",
+      "Manutenzione ordinaria",
+      "Riparazione perdite",
+      "Installazioni minori"
+    ],
+    "image": "images/services/manutenzione.jpg",
+    "order": 4
+  }
+]

@@ -1,0 +1,461 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard - Mani Verdi Admin</title>
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="css/admin.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+</head>
+<body class="admin-dashboard">
+    <!-- Admin Header -->
+    <header class="admin-header">
+        <nav class="admin-nav">
+            <div class="logo">
+                <i class="fas fa-leaf"></i> Mani Verdi Admin
+            </div>
+            <div class="admin-user">
+                <span>Benvenuto, Admin</span>
+                <button class="logout-btn" onclick="logout()">
+                    <i class="fas fa-sign-out-alt"></i>
+                    Esci
+                </button>
+            </div>
+        </nav>
+    </header>
+
+    <div class="admin-container">
+        <!-- Sidebar Navigation -->
+        <div class="admin-sidebar">
+            <nav class="sidebar-nav">
+                <a href="#dashboard" class="nav-item active" onclick="showSection('dashboard')">
+                    <i class="fas fa-tachometer-alt"></i>
+                    Dashboard
+                </a>
+                <a href="#content" class="nav-item" onclick="showSection('content')">
+                    <i class="fas fa-edit"></i>
+                    Contenuti
+                </a>
+                <a href="#services" class="nav-item" onclick="showSection('services')">
+                    <i class="fas fa-cogs"></i>
+                    Servizi
+                </a>
+                <a href="#gallery" class="nav-item" onclick="showSection('gallery')">
+                    <i class="fas fa-images"></i>
+                    Galleria
+                </a>
+                <a href="#videos" class="nav-item" onclick="showSection('videos')">
+                    <i class="fas fa-video"></i>
+                    Video
+                </a>
+                <a href="#settings" class="nav-item" onclick="showSection('settings')">
+                    <i class="fas fa-palette"></i>
+                    Impostazioni
+                </a>
+                <a href="../index.html" class="nav-item" target="_blank">
+                    <i class="fas fa-external-link-alt"></i>
+                    Visualizza Sito
+                </a>
+            </nav>
+        </div>
+
+        <!-- Main Content -->
+        <div class="admin-content">
+            <!-- Dashboard Section -->
+            <div id="dashboard-section" class="content-section active">
+                <div class="content-header">
+                    <h2>Dashboard</h2>
+                    <p>Panoramica generale del sito web</p>
+                    <div class="publish-section">
+                        <button class="btn btn-publish" onclick="publishChanges()">
+                            <i class="fas fa-rocket"></i>
+                            Pubblica Modifiche al Sito
+                        </button>
+                        <p class="publish-note">Clicca per applicare tutte le modifiche al sito principale</p>
+                    </div>
+                </div>
+
+                <div class="stats-grid">
+                    <div class="stat-card">
+                        <div class="stat-icon">
+                            <i class="fas fa-eye"></i>
+                        </div>
+                        <div class="stat-number">1,234</div>
+                        <div class="stat-label">Visitatori Totali</div>
+                    </div>
+                    
+                    <div class="stat-card secondary">
+                        <div class="stat-icon">
+                            <i class="fas fa-envelope"></i>
+                        </div>
+                        <div class="stat-number">45</div>
+                        <div class="stat-label">Messaggi Ricevuti</div>
+                    </div>
+                    
+                    <div class="stat-card accent">
+                        <div class="stat-icon">
+                            <i class="fas fa-images"></i>
+                        </div>
+                        <div class="stat-number">18</div>
+                        <div class="stat-label">Immagini in Galleria</div>
+                    </div>
+                    
+                    <div class="stat-card info">
+                        <div class="stat-icon">
+                            <i class="fas fa-calendar"></i>
+                        </div>
+                        <div class="stat-number">30</div>
+                        <div class="stat-label">Giorni Online</div>
+                    </div>
+                </div>
+
+                <div class="recent-activity">
+                    <h3>Attività Recenti</h3>
+                    <table class="admin-table">
+                        <thead>
+                            <tr>
+                                <th>Data</th>
+                                <th>Azione</th>
+                                <th>Dettagli</th>
+                            </tr>
+                        </thead>
+                        <tbody id="activityTable">
+                            <tr>
+                                <td>2025-09-30 10:30</td>
+                                <td>Nuovo messaggio</td>
+                                <td>Richiesta preventivo giardinaggio</td>
+                            </tr>
+                            <tr>
+                                <td>2025-09-29 15:45</td>
+                                <td>Immagine aggiunta</td>
+                                <td>Progetto giardino villa</td>
+                            </tr>
+                            <tr>
+                                <td>2025-09-28 09:15</td>
+                                <td>Servizio modificato</td>
+                                <td>Aggiornata descrizione pulizie</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+
+            <!-- Content Management Section -->
+            <div id="content-section" class="content-section">
+                <div class="content-header">
+                    <h2>Gestione Contenuti</h2>
+                    <p>Modifica i testi e i contenuti del sito</p>
+                </div>
+
+                <form class="admin-form" id="contentForm">
+                    <div class="form-group">
+                        <label for="heroTitle">Titolo Hero Section</label>
+                        <input type="text" id="heroTitle" name="heroTitle" value="Mani Verdi">
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="heroSubtitle">Sottotitolo Hero Section</label>
+                        <input type="text" id="heroSubtitle" name="heroSubtitle" value="Servizi Professionali a Novara">
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="heroDescription">Descrizione Hero Section</label>
+                        <textarea id="heroDescription" name="heroDescription" rows="3">Offriamo servizi di alta qualità in giardinaggio, facchinaggio, pulizie e piccola manutenzione edile</textarea>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="aboutText">Testo Chi Siamo</label>
+                        <textarea id="aboutText" name="aboutText" rows="5">Mani Verdi è un'impresa dinamica a Novara che offre servizi professionali di giardinaggio, facchinaggio, pulizie e piccola manutenzione edile. Il nostro obiettivo è garantire qualità, puntualità e attenzione ai dettagli per soddisfare le esigenze dei nostri clienti.</textarea>
+                    </div>
+                    
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label for="phone">Telefono</label>
+                            <input type="tel" id="phone" name="phone" value="+39 351 8351604">
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Email</label>
+                            <input type="email" id="email" name="email" value="maniverdi02@gmail.com">
+                        </div>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="address">Indirizzo</label>
+                        <input type="text" id="address" name="address" value="Novara, Italia">
+                    </div>
+                    
+                    <button type="submit" class="btn btn-primary">
+                        <i class="fas fa-save"></i>
+                        Salva Modifiche
+                    </button>
+                </form>
+            </div>
+
+            <!-- Services Management Section -->
+            <div id="services-section" class="content-section">
+                <div class="content-header">
+                    <h2>Gestione Servizi</h2>
+                    <p>Aggiungi, modifica o rimuovi i servizi offerti</p>
+                </div>
+
+                <div class="services-list">
+                    <div class="service-item-admin">
+                        <h4>Giardinaggio</h4>
+                        <p>Servizi completi di progettazione, manutenzione e cura di giardini, aiuole e spazi verdi.</p>
+                        <div class="service-actions">
+                            <button class="action-btn btn-edit" onclick="editService('giardinaggio')">
+                                <i class="fas fa-edit"></i>
+                            </button>
+                            <button class="action-btn btn-delete" onclick="deleteService('giardinaggio')">
+                                <i class="fas fa-trash"></i>
+                            </button>
+                        </div>
+                    </div>
+                    
+                    <div class="service-item-admin">
+                        <h4>Facchinaggio</h4>
+                        <p>Servizi di trasporto, carico e scarico merci con personale qualificato e attrezzature professionali.</p>
+                        <div class="service-actions">
+                            <button class="action-btn btn-edit" onclick="editService('facchinaggio')">
+                                <i class="fas fa-edit"></i>
+                            </button>
+                            <button class="action-btn btn-delete" onclick="deleteService('facchinaggio')">
+                                <i class="fas fa-trash"></i>
+                            </button>
+                        </div>
+                    </div>
+                    
+                    <div class="service-item-admin">
+                        <h4>Pulizie</h4>
+                        <p>Servizi di pulizia professionale per abitazioni, uffici e spazi commerciali con prodotti eco-friendly.</p>
+                        <div class="service-actions">
+                            <button class="action-btn btn-edit" onclick="editService('pulizie')">
+                                <i class="fas fa-edit"></i>
+                            </button>
+                            <button class="action-btn btn-delete" onclick="deleteService('pulizie')">
+                                <i class="fas fa-trash"></i>
+                            </button>
+                        </div>
+                    </div>
+                    
+                    <div class="service-item-admin">
+                        <h4>Piccola Manutenzione</h4>
+                        <p>Interventi di piccola manutenzione edile e riparazioni per la vostra casa o ufficio.</p>
+                        <div class="service-actions">
+                            <button class="action-btn btn-edit" onclick="editService('manutenzione')">
+                                <i class="fas fa-edit"></i>
+                            </button>
+                            <button class="action-btn btn-delete" onclick="deleteService('manutenzione')">
+                                <i class="fas fa-trash"></i>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+
+                <button class="btn btn-primary" onclick="addNewService()">
+                    <i class="fas fa-plus"></i>
+                    Aggiungi Nuovo Servizio
+                </button>
+            </div>
+
+            <!-- Gallery Management Section -->
+            <div id="gallery-section" class="content-section">
+                <div class="content-header">
+                    <h2>Gestione Galleria</h2>
+                    <p>Carica e gestisci le immagini della galleria</p>
+                </div>
+
+                <div class="upload-section">
+                    <div class="image-upload-enhanced" onclick="document.getElementById('imageUpload').click()">
+                        <input type="file" id="imageUpload" multiple accept="image/*" onchange="handleImageUpload(event)">
+                        <div class="processing-overlay" id="processingOverlay">
+                            <div class="processing-spinner"></div>
+                            <div class="processing-text">Elaborazione immagini in corso...</div>
+                        </div>
+                        <div class="upload-icon-enhanced">
+                            <i class="fas fa-cloud-upload-alt"></i>
+                        </div>
+                        <div class="upload-text-enhanced">
+                            Carica Immagini di Alta Qualità
+                        </div>
+                        <div class="upload-subtext">
+                            Trascina qui le tue immagini o clicca per selezionarle
+                        </div>
+                        <div class="upload-specs">
+                            <strong>Specifiche supportate:</strong>
+                            <ul>
+                                <li>Formati: JPG, PNG, WEBP, GIF</li>
+                                <li>Dimensione massima: 50MB per immagine</li>
+                                <li>Risoluzione: Fino a 8K (7680×4320)</li>
+                                <li>Compressione automatica per il web</li>
+                                <li>Generazione automatica di miniature</li>
+                            </ul>
+                        </div>
+                    </div>
+                    
+                    <div class="image-preview-grid" id="imagePreviewGrid">
+                        <!-- Le anteprime delle immagini caricate appariranno qui -->
+                    </div>
+                </div>
+
+                <div class="gallery-manager" id="galleryManager">
+                    <!-- Uploaded images by admin will appear here -->
+                </div>
+            </div>
+
+            <!-- Video Management Section -->
+            <div id="videos-section" class="content-section">
+                <div class="content-header">
+                    <h2>Gestione Video</h2>
+                    <p>Carica e gestisci i video dei vostri lavori</p>
+                </div>
+
+                <form class="admin-form" id="videoForm">
+                    <div class="form-group">
+                        <label for="videoTitle">Titolo Video</label>
+                        <input type="text" id="videoTitle" name="videoTitle" placeholder="Inserisci il titolo del video">
+                    </div>
+                    
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label for="videoWidth">Larghezza (px)</label>
+                            <input type="number" id="videoWidth" name="videoWidth" value="640">
+                        </div>
+                        <div class="form-group">
+                            <label for="videoHeight">Altezza (px)</label>
+                            <input type="number" id="videoHeight" name="videoHeight" value="360">
+                        </div>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="videoFile">File Video</label>
+                        <div class="file-upload" onclick="document.getElementById('videoFile').click()">
+                            <input type="file" id="videoFile" accept="video/*" onchange="handleVideoUpload(event)">
+                            <div class="upload-icon">
+                                <i class="fas fa-video"></i>
+                            </div>
+                            <div class="upload-text">
+                                <strong>Clicca per caricare il video</strong><br>
+                                Formati supportati: MP4, WebM, AVI
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <button type="submit" class="btn btn-primary">
+                        <i class="fas fa-save"></i>
+                        Salva Video
+                    </button>
+                </form>
+
+                <div class="videos-list" id="videosList">
+                    <h3>Video Caricati</h3>
+                    <table class="admin-table">
+                        <thead>
+                            <tr>
+                                <th>Titolo</th>
+                                <th>Dimensioni</th>
+                                <th>Data Caricamento</th>
+                                <th>Azioni</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>Progetto Giardino Completo</td>
+                                <td>640x360</td>
+                                <td>2025-09-30</td>
+                                <td>
+                                    <button class="action-btn btn-view">
+                                        <i class="fas fa-eye"></i>
+                                    </button>
+                                    <button class="action-btn btn-edit">
+                                        <i class="fas fa-edit"></i>
+                                    </button>
+                                    <button class="action-btn btn-delete">
+                                        <i class="fas fa-trash"></i>
+                                    </button>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+
+            <!-- Settings Section -->
+            <div id="settings-section" class="content-section">
+                <div class="content-header">
+                    <h2>Impostazioni Design</h2>
+                    <p>Personalizza colori e font del sito</p>
+                </div>
+
+                <form class="admin-form" id="settingsForm">
+                    <h3>Colori</h3>
+                    <div class="color-picker-group">
+                        <div class="form-group">
+                            <label for="primaryColor">Colore Primario</label>
+                            <div class="color-input-group">
+                                <input type="color" id="primaryColor" name="primaryColor" value="#2E7D32">
+                                <input type="text" value="#2E7D32" readonly>
+                            </div>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="secondaryColor">Colore Secondario</label>
+                            <div class="color-input-group">
+                                <input type="color" id="secondaryColor" name="secondaryColor" value="#4CAF50">
+                                <input type="text" value="#4CAF50" readonly>
+                            </div>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="accentColor">Colore Accento</label>
+                            <div class="color-input-group">
+                                <input type="color" id="accentColor" name="accentColor" value="#FFC107">
+                                <input type="text" value="#FFC107" readonly>
+                            </div>
+                        </div>
+                    </div>
+
+                    <h3>Font</h3>
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label for="primaryFont">Font Principale</label>
+                            <select id="primaryFont" name="primaryFont">
+                                <option value="Poppins">Poppins</option>
+                                <option value="Arial">Arial</option>
+                                <option value="Helvetica">Helvetica</option>
+                                <option value="Georgia">Georgia</option>
+                                <option value="Times New Roman">Times New Roman</option>
+                            </select>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="fontSize">Dimensione Font Base</label>
+                            <select id="fontSize" name="fontSize">
+                                <option value="14px">14px</option>
+                                <option value="16px" selected>16px</option>
+                                <option value="18px">18px</option>
+                                <option value="20px">20px</option>
+                            </select>
+                        </div>
+                    </div>
+
+                    <button type="submit" class="btn btn-primary">
+                        <i class="fas fa-save"></i>
+                        Salva Impostazioni
+                    </button>
+                    
+                    <button type="button" class="btn btn-secondary" onclick="resetSettings()">
+                        <i class="fas fa-undo"></i>
+                        Ripristina Default
+                    </button>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <script src="js/api.js"></script>
+    <script src="js/admin.js"></script>
+</body>
+</html>

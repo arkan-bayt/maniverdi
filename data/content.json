@@ -1,0 +1,70 @@
+{
+  "site": {
+    "title": "Mani Verdi",
+    "description": "Servizi Professionali a Novara",
+    "keywords": "giardinaggio, facchinaggio, pulizie, manutenzione, Novara",
+    "author": "Mani Verdi"
+  },
+  "hero": {
+    "title": "Mani Verdi",
+    "subtitle": "Servizi Professionali a Novara",
+    "description": "Offriamo servizi di alta qualità in giardinaggio, facchinaggio, pulizie e piccola manutenzione edile",
+    "primaryButton": "I Nostri Servizi",
+    "secondaryButton": "Contattaci"
+  },
+  "about": {
+    "title": "Chi Siamo",
+    "subtitle": "La Nostra Storia",
+    "description": "Mani Verdi è un'impresa dinamica a Novara che offre servizi professionali di giardinaggio, facchinaggio, pulizie e piccola manutenzione edile. Il nostro obiettivo è garantire qualità, puntualità e attenzione ai dettagli per soddisfare le esigenze dei nostri clienti.",
+    "features": [
+      {
+        "icon": "fas fa-check-circle",
+        "text": "Professionalità garantita"
+      },
+      {
+        "icon": "fas fa-clock",
+        "text": "Puntualità nei servizi"
+      },
+      {
+        "icon": "fas fa-star",
+        "text": "Attenzione ai dettagli"
+      },
+      {
+        "icon": "fas fa-handshake",
+        "text": "Soddisfazione del cliente"
+      }
+    ],
+    "stats": [
+      {
+        "number": "100+",
+        "label": "Clienti Soddisfatti"
+      },
+      {
+        "number": "5+",
+        "label": "Anni di Esperienza"
+      },
+      {
+        "number": "24/7",
+        "label": "Assistenza"
+      }
+    ]
+  },
+  "contact": {
+    "title": "Contattaci",
+    "subtitle": "Siamo qui per rispondere alle vostre domande e fornire preventivi gratuiti",
+    "address": "Novara, Italia",
+    "phone": "+39 351 8351604",
+    "email": "maniverdi02@gmail.com",
+    "workingHours": {
+      "weekdays": "Lun - Ven: 8:00 - 18:00",
+      "saturday": "Sab: 8:00 - 13:00"
+    },
+    "mapEmbedUrl": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d45198.40464960457!2d8.588284!3d45.4516!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47865a2f5b8b8b8b%3A0x2e2e2e2e2e2e2e2e!2sNovara%2C%20NO%2C%20Italia!5e0!3m2!1sit!2sit!4v1640000000000!5m2!1sit!2sit"
+  },
+  "social": {
+    "facebook": "#",
+    "instagram": "#",
+    "linkedin": "#",
+    "whatsapp": "#"
+  }
+}
