@@ -83,10 +83,11 @@ error.log
 # Cache files
 .cache/
 
-# Optional: Ignore large video files if you want to use Git LFS
-# *.mp4
-# *.avi
-# *.mov
+# Large video files (too big for GitHub)
+*.mp4
+*.avi
+*.mov
+videos/
 
 # Optional: Ignore generated favicon creation scripts
 create_favicon*.py
