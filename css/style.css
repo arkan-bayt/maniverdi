@@ -682,67 +682,6 @@ section {
     transform: scale(1.1);
 }
 
-/* Video Section */
-.video-section {
-    margin-top: 4rem;
-    text-align: center;
-    padding: 2rem 0;
-    background: linear-gradient(135deg, rgba(45, 90, 61, 0.05), rgba(33, 150, 243, 0.05));
-    border-radius: 20px;
-    border: 2px solid rgba(45, 90, 61, 0.1);
-}
-
-.video-section h3 {
-    font-size: 2.2rem;
-    color: var(--green);
-    margin-bottom: 2.5rem;
-    font-weight: 700;
-    text-transform: uppercase;
-    letter-spacing: 1px;
-}
-
-.video-grid {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(500px, 1fr));
-    gap: 3rem;
-    padding: 0 2rem;
-}
-
-.video-item {
-    position: relative;
-    overflow: hidden;
-    border-radius: 20px;
-    box-shadow: 0 10px 30px rgba(45, 90, 61, 0.2);
-    transition: all 0.4s ease;
-    background: white;
-    padding: 1.5rem;
-}
-
-.video-item:hover {
-    transform: translateY(-5px);
-    box-shadow: 0 15px 40px rgba(45, 90, 61, 0.3);
-}
-
-.video-item video {
-    width: 100%;
-    border-radius: 15px;
-    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
-    transition: all 0.3s ease;
-}
-
-.video-item video:hover {
-    transform: scale(1.02);
-}
-
-.video-item h4 {
-    margin-top: 1.5rem;
-    color: var(--green);
-    font-weight: 700;
-    font-size: 1.2rem;
-    text-transform: uppercase;
-    letter-spacing: 0.5px;
-}
-
 /* Contact Section */
 .contact-content {
     display: grid;
@@ -1259,24 +1198,6 @@ section {
     
     .gallery-grid {
         grid-template-columns: 1fr;
-    }
-    
-    .video-grid {
-        grid-template-columns: 1fr;
-        padding: 0 1rem;
-    }
-    
-    .video-section {
-        padding: 1.5rem 0;
-        margin-top: 2rem;
-    }
-    
-    .video-section h3 {
-        font-size: 1.8rem;
-    }
-    
-    .video-item {
-        padding: 1rem;
     }
     
     .footer-bottom {
